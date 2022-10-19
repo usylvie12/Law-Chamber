@@ -1,4 +1,5 @@
 {
+  "proxy": " https://fierce-forest-19113.herokuapp.com/",
   "name": "crud-mern",
   "version": "1.0.0",
   "engines": {

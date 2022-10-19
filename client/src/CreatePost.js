@@ -32,7 +32,7 @@ function CreatePost() {
   };
 
   return (
-    <div style={{ textAlign: "center", width: "90%", margin: "auto auto" }}>
+    <div style={{ textAlign: "center", width: "50%", margin: "auto auto" }}>
       <h1>Create post page</h1>
       <Form>
         <Form.Group>
@@ -54,7 +54,7 @@ function CreatePost() {
         <Button
           onClick={createPost}
           variant="outline-success"
-          style={{ width: "100%", marginBottom: "1rem" }}
+          style={{ width: "40%", marginBottom: "1rem" }}
         >
           CREATE POST
         </Button>
@@ -62,10 +62,12 @@ function CreatePost() {
       <Button
         onClick={() => navigate("posts")}
         variant="outline-success"
-        style={{ width: "100%" }}
+        style={{ width: "40%" }}
       >
         ALL POSTS
       </Button>
+
+     
     </div>
   );
 }
