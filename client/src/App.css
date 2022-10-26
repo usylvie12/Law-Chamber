@@ -31,39 +31,79 @@
   width: 30%;
   margin: auto;
 }
+h2,h4,h5,h6{
+  color: #076585;
+}
+
+
+   #practice img{
+   justify-items: center;
+   width: 50px;;
+   
+  }
+  #practice h5{
+    padding: 15px;;
+    color: black;
+    font-size:medium;
+  }
+
+  .service-hr{
+    border: 1px solid hsl(195, 91%, 31%);
+    
+    }
+    .service-link{
+      color: #076585;
+      text-decoration: none;
+    }
+
+
+
 .nav-link-register{
   
   padding: 10px 25px 10px ;
-  background-color: #6C5B7B;
-  color: #F7F7F7;
+  background-color:white;
+  color: #076585;
   text-decoration: none;
+  border: #076585;
+  border-style: solid;
 }
-.nav-link-login{
-  
-  padding: 10px 25px 10px ;
-  background-color: #6C5B7B;
-  color: #F7F7F7;
-  text-decoration: none;
+.nav-link-register:hover{
+  background-color: #C9D6FF;
 }
 
+#attorneys h2{
+  margin-bottom: 10px;
+ 
+}
 
 
 
 #home{
-  background-color: #eae7dc;
-  min-height: 300px;
+  
+  padding: 20px;
+
 }
-.consultation{
+#about img{
+  width: 100%;
+
+}
+#home a{
   text-decoration: none;
-  background-color: #6C5B7B;
-  color: #F7F7F7;
-  padding: 10px 30px 15px ;
-  margin-left:40%;
+  background: #076585;
+ 
+  color: white;
+  padding: 10px 15px ;
+  margin-top: 50px;
+  width: 40%;
+  
+  
   
 }
-.attorneys img{
-  width:250px;
-  height:300px;}
+#home a:hover{
+  background-color: #C9D6FF;
+}
+
+
   .card-body a{
 
       background-color: #6C5B7B;
@@ -78,19 +118,84 @@
   }
  
   
-  #attorneys img{
-      width:220px;
-      height:280px;
+  
+  .card{
+    position: relative;
+    
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+      
   }
-  #attorneys .fa-envelope{
-      font-size: 1.5rem;  
-  color: #6C5B7B;
+
+ .details a{ text-decoration: none;
+  background: #076585;
+ color: white;
+  padding: 10px 15px ;
+ 
+  width: 40%;}
+
+  .imgBx{
+   position: absolute; 
+   left: 30%;
+   top: -50px;
+   transform: -50px;
+   width: 100px;
+   height: 100px;
+   border-radius: 20px;
+   
+   overflow: hidden;
   }
+
+  .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .card .content .details{
+    padding: 40px;
+    text-align:center ;
+    width: 100%;
+  }
+
+
+
+.adverts{
+  
+
+  background-color: #076585;
+  color: white;
+}
+.adverts div{
+  border-left: #F7F7F7;
+  border-style:solid ;
+  padding: 40px;
+
+}
+
+
+
+
+  
   
   #footer{
       padding: 10px;
-      background-color:#6C5B7B;
-      color: #F7F7F7;
+      background-color:#E2E2E2;
+      font-size: small;
+      color: #333232;
   }
   form{
       padding: 20px;
@@ -106,7 +211,13 @@
 
   #client{
       width: 150px;
-      height: 150px;
+      height: 100px;
+      
+  }
+
+  .footer-icon{
+    padding: 8px;
+    width: 13% ;
   }
   
 

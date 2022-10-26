@@ -13,24 +13,46 @@ function App() {
   return (
     <div className="App">
        <section id="home">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-8 mt-5 ">
-                            <h1 className="display-4 fw-boldermb-4 text-center">Global Law Chambers</h1>
+
+       <div className="container">
+                <div className="row">
+               
+                       
+                <div className="col-md-6">
+                    <div className="row justify-content-center p-5">
+                        
+                            <h1 className="display-4 fw-bolder mb-4 text-center">Global Law Chambers</h1>
                             <h3 className="display-8 text-center">Get an attorney who will fight for your rights</h3>
-                           
-                            <Link to="/create" className="consultation rounded-pill"  >Free Consultation</Link>
+                            <Link to="/create" className=" rounded-pill shadow"  >Free Consultation</Link>
                             </div>
                            
-
                            
-                            
-                                
-                            
-                    </div>
+                       
+                        </div>
+                        <div className="col-md-6 ">
+                            <img src="/assets/law-firm.jpg" alt="About" className='p-5' />
+                        </div> </div>
+                        
+                        
                 </div>
             </section>
-            <About/>
+            <div className="row adverts">
+                        <div className="col-md-4">
+                        <h3 className=" text-center">Insurance Defence</h3>
+                        <p >legal representation of legal matters related to insurance</p> 
+                        
+                        </div>
+                        <div className="col-md-4">
+                        <h3 className=" text-center">Financial Law</h3>
+                        <p> law and regulation of the commercial banking, capital markets, insurance</p> 
+                        </div>
+                        <div className="col-md-4">
+                        <h3 className=" text-center">Expert Attorneys</h3>
+                        <p> professional support service for Solicitors, Individuals and Charities</p> 
+                        </div>
+                        </div>
+
+             <About/>
             <Practice/>
             <Attorneys/>
       

@@ -73,11 +73,11 @@ function Posts() {
   };
 
   return (
-    <div style={{ width: "50%", margin: "auto auto", textAlign: "center" }}>
+    <div style={{ width: "50%", margin: "auto auto", textAlign: "center"}}>
       <h1>Posts page</h1>
       <Button
         variant="outline-dark"
-        style={{ width: "50%", marginBottom: "1rem" }}
+        style={{ width: "80%", marginBottom: "1rem" }}
         onClick={() => navigate(-1)}
       >
         BACK
